@@ -145,7 +145,10 @@ url("logo.png")
 }
 
 .main .larg-text {
-    font-size: 56px
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 70px;
 }
 
 .main .btn-wrapper {
@@ -210,4 +213,21 @@ url("logo.png")
     display: inline-block;
     width: 30%;
     margin: 25px 5px;
+}
+
+address{
+    width:150px;
+} 
+
+
+
+.footer{
+    position: absolute;
+    width:100%;
+    height:100px;
+}
+.copyrite {
+    position: absolute;
+	margin-left:35vw;
+    margin-top:100px;
 }
