@@ -214,3 +214,19 @@ url("logo.png")
     width: 30%;
     margin: 25px 5px;
 }
+
+
+.content-level3{
+
+}
+ 
+.content-level3 .address{
+    display:inline-block;
+    width:20%;
+}
+
+.content-level3 .copyright{
+    display:inline-block;
+    margin-left:150px;
+    width:40%;
+}

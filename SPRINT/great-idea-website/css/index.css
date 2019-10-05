@@ -345,3 +345,18 @@ body {
     transform:scale(1.2);
     background:rgba(255,255,0,.5);
 }
+
+.content-level3{
+
+}
+ 
+.content-level3 .address{
+    display:inline-block;
+    width:20%;
+}
+
+.content-level3 .copyright{
+    display:inline-block;
+    margin-left:150px;
+    width:40%;
+}
