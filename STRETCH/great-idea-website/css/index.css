@@ -1,0 +1,429 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box  */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/*
+ Your code starts here! url("header-img.png")
+url("mid-page-accent.jpg")
+url("MyWatch.jpeg")
+url("logo.png")
+*/
+
+
+* {
+    color: black;
+}
+
+a {
+    color: blue
+}
+
+body {
+    background: linear-gradient(13deg, rgba(30, 130, 207, 1) 45%, rgba(119, 129, 155, 0.75) 0 100%),
+        linear-gradient(2700deg, rgba(255, 255, 255, .6) 0 35%, rgba(85, 185, 255, 1) 100%);
+}
+
+
+.container .nav-bar {
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    border-radius: 15px;
+
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    padding: 0 15%;
+    margin: 0 auto;
+}
+
+.container nav {
+    /* display:inline-block; */
+    width: 70%;
+    background: rgba(0, 0, 0, .75);
+
+}
+
+.container nav .nav-menu {
+    width: 100%;
+    height: 50px;
+
+
+}
+
+.container nav .nav-menu > li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.container nav .img-logo {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 200px;
+    height: 50px;
+    background-repeat: no-repeat;
+
+}
+
+
+.container nav .light {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    height: 50px;
+    width: 35px;
+    background-repeat: no-repeat;
+    transform: rotate(20deg);
+    background-image: url("../img/lig.png");
+    transition: background 1s;
+    z-index: 6;
+}
+
+.container nav .light:hover {
+    transition: background 1s;
+    background-image: url("../img/lighton.png");
+
+}
+
+.logo-text {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    width: 250px;
+    color: blue;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+.light {
+    position: absolute;
+    right: -10px;
+    top: 0;
+}
+
+.container nav .img-logo:hover {}
+
+.main {
+    width: 100%;
+}
+
+.main .main-wrapper {
+    width: 100%;
+    margin-top: 10%;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.main .large-text-wrapper {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 150px;
+
+
+}
+
+.main .larg-text {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    font-size: 70px;
+
+}
+
+.main .larg-text:hover {
+
+    animation-delay: .5s;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.main .btn-wrapper {
+    margin: 50px;
+    width: 125px;
+}
+
+.main .get-started {
+    width: 125px;
+    height: 50px;
+}
+
+.img-wrapper {
+    width: 400px;
+    display: inline-block;
+    height: 400px;
+    background-position: center;
+    background-image: url("../img/header-img.png");
+    background-color: transparent;
+    opacity: .55;
+    background-repeat: no-repeat;
+    transition: opacity 2s;
+}
+
+.img-wrapper:hover {
+    opacity: 1;
+    transition: opacity 2s;
+
+}
+
+
+.content .content-level1 {
+    display: inline-block;
+    margin-bottom: 50px;
+    padding: 20px;
+
+}
+
+.content .content-level1 .first {
+    display: inline-block;
+    width: 45%;
+    margin-right: 50px;
+    content: normal;
+}
+
+.content .content-level1 .second {
+    display: inline-block;
+    width: 45%;
+    margin: 25px 5px;
+}
+
+.content .content-level2 {
+    margin: 50px 0px 50px 0px;
+    padding: 20px;
+    width: 100%;
+}
+
+.content .content-level2 .first {
+    display: inline-block;
+    width: 30%;
+    margin: 3px 0px 3px 7px;
+}
+
+.content .content-level2 .second {
+    display: inline-block;
+    width: 30%;
+    margin: 3px 30px 3px 30px;
+}
+
+.content .content-level2 .third {
+    display: inline-block;
+    width: 30%;
+    margin: 3px 7px 3px 0px;
+}
+
+
+
+
+.dd-items {
+    transition: transform;
+    transition-delay: .15s;
+
+}
+
+.dd-items:hover {
+    transform: scale(1.2);
+    background: rgba(255, 255, 255, .5);
+    border-radius: 12px;
+}
+
+.content-level3 {
+    margin: 150px auto 50px auto;
+}
+
+.content-level3 .address {
+    display: inline-block;
+    width: 20%;
+    border: 4px inset black;
+    background: white;
+}
+
+.content-level3 .copyright {
+    display: inline-block;
+    margin-left: 150px;
+    width: 40%;
+}
+
+.content p {
+    line-height: 20px;
+    padding: 20px;
+    box-shadow: 2px 3px 1px 4px blue;
+    background: rgba(255, 255, 255, .25);
+    border-radius: 15px;
+
+}
+
+
+@keyframes color-change {
+
+    50% {
+
+        color: rgba(185, 88, 25, 1);
+
+    }
+
+    100% {
+
+        color: rgba(185, 15, 25, 1);
+
+    }
+}
+
+@keyframes lightOn {
+
+    100% {}
+
+    ;
+
+}
