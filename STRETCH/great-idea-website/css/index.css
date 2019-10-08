@@ -104,6 +104,7 @@ section {
 
 body {
     line-height: 1;
+    background:url('../img/background.png');
 }
 
 ol,
@@ -166,17 +167,17 @@ a {
     color: blue
 }
 
-body {
-    background: linear-gradient(13deg, rgba(30, 130, 207, 1) 45%, rgba(119, 129, 155, 0.75) 0 100%),
-        linear-gradient(2700deg, rgba(255, 255, 255, .6) 0 35%, rgba(85, 185, 255, 1) 100%);
-}
 
+h3{
+    text-shadow:2px 1px 3px blue;
+}
 
 .container .nav-bar {
     position: fixed;
     z-index: 5;
     top: 10px;
     border-radius: 15px;
+    box-shadow:2px 1px 5px white;
 
 }
 
@@ -277,6 +278,7 @@ body {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     font-size: 70px;
+    text-shadow:3px 1px 2px lightblue;
 
 }
 
@@ -393,6 +395,7 @@ body {
     display: inline-block;
     margin-left: 150px;
     width: 40%;
+  
 }
 
 .content p {
@@ -401,9 +404,27 @@ body {
     box-shadow: 2px 3px 1px 4px blue;
     background: rgba(255, 255, 255, .25);
     border-radius: 15px;
-
+   
 }
 
+.copyright p{
+    color:lightblue;
+    text-shadow:2px 1px 3px blue;
+}
+
+.get-started{
+    border-radius:12px;
+    text-decoration:none;
+    background:transparent;
+    box-shadow:3px 2px 4px 2px lightblue;
+    transition:background 1.5s;
+}
+
+.get-started:hover{
+    background:rgba(0,0,255,.7);
+    transition:background 1.5s;
+
+}
 
 @keyframes color-change {
 
