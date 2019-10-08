@@ -195,6 +195,7 @@ p{
 
 .container nav .img-logo {
     display: inline-block;
+    vertical-align:middle;
 }
 
 .main {
