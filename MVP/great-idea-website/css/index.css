@@ -166,7 +166,9 @@ url("logo.png")
 * {
     box-sizing: border-box;
 }
-
+p{
+    margin: 10px 0 10px 0;
+}
 .container {
     position: absolute;
     width: 100vw;
@@ -209,7 +211,7 @@ url("logo.png")
     display: inline-block;
     text-align: center;
     padding: 20px 30px;
-    margin-bottom: 50px 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -244,48 +246,45 @@ url("logo.png")
 
 .content .content-level1 {
     display: inline-block;
-
+    border-top:2px ridge black;
 }
 
 .content .content-level1 .first {
     display: inline-block;
     width: 45%;
-    margin: 25px 15px;
+    margin: 25px 15px 20px 0;
     content: normal;
 }
 
 .content .content-level1 .second {
     display: inline-block;
     width: 45%;
-    margin: 25px 5px;
+    margin: 25px 0px auto 40px;
 }
 
-.content .content-img {}
-
-.content .middle-img {}
 
 .content .content-level2 {
     width: 100%;
-    height: 250px;
-    padding: 20px;
+    padding: 10px 0 10px 0;
+    border-bottom:2px ridge black;
 }
 
 .content .content-level2 .first {
     display: inline-block;
-    width: 27%;
-    margin: 25px 20px;
+    width: 29%;
+    margin: 25px 20px 0 0;
 }
 
 .content .content-level2 .second {
     display: inline-block;
-    width: 27%;
+    width: 29%;
     margin: 25px 20px;
 }
 
 .content .content-level2 .third {
     display: inline-block;
-    width: 27%;
-    margin: 25px 20px;
+    width: 29%;
+    margin: 25px 0px 0px 20px;
 }
 
 
@@ -313,7 +312,7 @@ url("logo.png")
 .content p {
     line-height: 20px;
     padding: 10px;
-    box-shadow: 2px 3px 1px 4px rgba(0, 0, 255, .07);
+    /* box-shadow: 2px 3px 1px 4px rgba(0, 0, 255, .07); */
     margin-right: auto;
 }
 
