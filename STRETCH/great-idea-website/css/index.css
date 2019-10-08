@@ -94,7 +94,7 @@ details,
 figcaption,
 figure,
 footer,
-header,
+header, 
 hgroup,
 menu,
 nav,
@@ -104,7 +104,7 @@ section {
 
 body {
     line-height: 1;
-    background:url('../img/background.png');
+    background:url('../img/bg.png');
 }
 
 ol,
@@ -170,6 +170,8 @@ a {
 
 h3{
     text-shadow:2px 1px 3px blue;
+    font-size:24px;
+    color:lightblue;
 }
 
 .container .nav-bar {
@@ -402,7 +404,7 @@ h3{
     line-height: 20px;
     padding: 20px;
     box-shadow: 2px 3px 1px 4px blue;
-    background: rgba(255, 255, 255, .25);
+    background: rgba(255, 255, 255, .75);
     border-radius: 15px;
    
 }
